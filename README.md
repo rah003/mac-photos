@@ -22,5 +22,6 @@ Changes
 -----------------
 1.1
 - extra script for just editing photos in currently opened album
+
 1.0
 - first release
