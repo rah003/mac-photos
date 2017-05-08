@@ -1,7 +1,9 @@
 Apple scripts for photos
 =======================
 
-```PhotoEnhancerFinal``` will import all photos from folder chosen upon start into Apple's photos app and then call "Enhance" function on each photo. Once done, will also export all modified photos back to "Downloads" folder on your mac.
+```PhotoEnhancerFinal``` will import all photos from folder chosen upon start into Apple's photos app and then call "Enhance" function on each photo. Once done, will also export all modified photos back to "Downloads" folder on your mac. (Broken in osx 10.12.4 :( )
+
+```apply_magic_wand``` will run "enhance" (magic wand) op in Photos app on all photos in currently opened album. Before starting the script open first photo in the album in edit mode. If you don't want to start at the beginning of the album or if for whatever reason script got interrupted, that's fine, just open photo where you want to start in edit mode and run the script.
 
 License
 -------
@@ -18,6 +20,7 @@ Nothing really, just make sure you have script editor and photos installed on yo
 
 Changes
 -----------------
-
+1.1
+- extra script for just editing photos in currently opened album
 1.0
 - first release
